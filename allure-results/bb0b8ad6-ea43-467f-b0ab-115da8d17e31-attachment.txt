@@ -1,0 +1,41 @@
+################################################################################################################################################
+Detected SHAFT Engine Version: [SHAFT Engine v5.3.20210902]
+################################################################################################################################################
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @07-11-2021 18:03:36.0754 PM
+[ReportManager] Attempting to run locally on: [Windows-64], [GoogleChrome]. @07-11-2021 18:03:36.0839 PM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @07-11-2021 18:03:36.0841 PM
+[ReportManager] Successfully Opened Google Chrome. @07-11-2021 18:03:40.0091 PM
+[ReportManager] Target URL: [https://www.google.com/] @07-11-2021 18:03:40.0121 PM
+[ReportManager] Initial URL: [data:,] @07-11-2021 18:03:40.0176 PM
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20211107-180335", Target File: "\1636301022621_beforeMethod.gif"]. @07-11-2021 18:03:42.0778 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/]. @07-11-2021 18:03:43.0390 PM
+[ReportManager] Successfully created attachment [Animated Gif - beforeMethod] @07-11-2021 18:03:43.0399 PM
+
+################################################################################################################################################
+Starting Execution:	[1 out of 1] test cases in the current suite
+Test Method:		[TestPackage.TestClass.checkTheStatsIsNotEmpty]
+Test Description:	[Check the stats of shaft_Engine results is not empty]
+################################################################################################################################################
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20211107-180335", Target File: "\1636301024079_checkTheStatsIsNotEmpty.gif"]. @07-11-2021 18:03:44.0154 PM
+[ReportManager] Element Action [Type] successfully performed. With the following test data [shaft engine]. @07-11-2021 18:03:44.0564 PM
+[ReportManager] Element Action [KeyPress] successfully performed. With the following test data [ENTER]. @07-11-2021 18:03:47.0324 PM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [حوالى 61,700,000 نتيجة (0.57 ثانية) ]. @07-11-2021 18:03:47.0983 PM
+[ReportManager] Loaded Shared OpenCV @07-11-2021 18:03:49.0105 PM
+[ReportManager] Verification Passed: assert the label is not empty @07-11-2021 18:03:49.0551 PM
+[ReportManager] Successfully created attachment [Screenshot - 1636301028286_checkTheStatsIsNotEmpty_ValidateElementAttribute_passed] @07-11-2021 18:03:49.0573 PM
+[ReportManager] Verification [ValidateElementAttribute] PASSED. Expected [Value Should not be '' for the 'text' attribute, element locator 'By.id: result-stats'] and Actual [حوالى 61,700,000 نتيجة (0.57 ثانية) ]. Comparison Type [EQUALS]. Validation Type [NEGATIVE]. @07-11-2021 18:03:49.0573 PM
+[ReportManager] Successfully created attachment [Video Recording - checkTheStatsIsNotEmpty] @07-11-2021 18:03:54.0228 PM
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @07-11-2021 18:03:54.0370 PM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @07-11-2021 18:03:54.0388 PM
+[ReportManager] Successfully created attachment [Animated Gif - checkTheStatsIsNotEmpty] @07-11-2021 18:03:54.0396 PM
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @07-11-2021 18:03:54.0436 PM
+
+################################################################################################################################################
+Test Closure Activities
+################################################################################################################################################
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Execution log] @07-11-2021 18:03:55.0652 PM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: [SHAFT Engine v5.3.20210902]
+SHAFT Engine is licensed under the MIT License: [https://github.com/MohabMohie/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################

@@ -1,0 +1,9 @@
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @07-11-2021 18:03:36.0754 PM
+[ReportManager] Attempting to run locally on: [Windows-64], [GoogleChrome]. @07-11-2021 18:03:36.0839 PM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @07-11-2021 18:03:36.0841 PM
+[ReportManager] Successfully Opened Google Chrome. @07-11-2021 18:03:40.0091 PM
+[ReportManager] Target URL: [https://www.google.com/] @07-11-2021 18:03:40.0121 PM
+[ReportManager] Initial URL: [data:,] @07-11-2021 18:03:40.0176 PM
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20211107-180335", Target File: "\1636301022621_beforeMethod.gif"]. @07-11-2021 18:03:42.0778 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/]. @07-11-2021 18:03:43.0390 PM
+[ReportManager] Successfully created attachment [Animated Gif - beforeMethod] @07-11-2021 18:03:43.0399 PM
