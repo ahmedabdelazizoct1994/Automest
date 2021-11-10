@@ -38,7 +38,7 @@
   </parameter>
   <parameter>
     <key>sun.java.command</key>
-    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener com.shaft.tools.listeners.SuiteListener;com.shaft.tools.listeners.InvokedMethodListener;com.shaft.tools.listeners.AlterSuiteListener -socket61688 @w@C:\Users\BAIANA~1\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\BAIANA~1\AppData\Local\Temp\idea_testng.tmp</value>
+    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener com.shaft.tools.listeners.SuiteListener;com.shaft.tools.listeners.InvokedMethodListener;com.shaft.tools.listeners.AlterSuiteListener -socket61783 @w@C:\Users\BAIANA~1\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\BAIANA~1\AppData\Local\Temp\idea_testng.tmp</value>
   </parameter>
   <parameter>
     <key>jdk.debug</key>
@@ -182,7 +182,7 @@
   </parameter>
   <parameter>
     <key>executionAddress</key>
-    <value>localhost:4444/</value>
+    <value>local</value>
   </parameter>
   <parameter>
     <key>apiConnectionManagerTimeout</key>
@@ -346,7 +346,7 @@
   </parameter>
   <parameter>
     <key>targetOperatingSystem</key>
-    <value>Linux-64</value>
+    <value>Windows-64</value>
   </parameter>
   <parameter>
     <key>propertiesFolderPath</key>
