@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 public class homePage {
     //variables
     private WebDriver driver;
-     private final String url="https://www.google.com/";
+    private final String url = System.getProperty("baseUrlForGoogle");
 
 
 

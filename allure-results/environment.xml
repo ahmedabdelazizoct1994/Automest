@@ -38,7 +38,7 @@
   </parameter>
   <parameter>
     <key>sun.java.command</key>
-    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener com.shaft.tools.listeners.SuiteListener;com.shaft.tools.listeners.InvokedMethodListener;com.shaft.tools.listeners.AlterSuiteListener -socket54680 @w@C:\Users\BAIANA~1\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\BAIANA~1\AppData\Local\Temp\idea_testng.tmp</value>
+    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener com.shaft.tools.listeners.SuiteListener;com.shaft.tools.listeners.InvokedMethodListener;com.shaft.tools.listeners.AlterSuiteListener -socket61688 @w@C:\Users\BAIANA~1\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\BAIANA~1\AppData\Local\Temp\idea_testng.tmp</value>
   </parameter>
   <parameter>
     <key>jdk.debug</key>
@@ -170,7 +170,7 @@
   </parameter>
   <parameter>
     <key>java.library.path</key>
-    <value>C:\Users\Baianater 2\.jdks\openjdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\PHP7;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.8.2\bin;C:\Program Files\PostgreSQL\13\bin;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-17\bin;C:\Users\Baianater 2\AppData\Local\Microsoft\WindowsApps;;C:\Users\Baianater 2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Baianater 2\AppData\Roaming\npm;.</value>
+    <value>C:\Users\Baianater 2\.jdks\openjdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\PHP7;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.8.2\bin;C:\Program Files\PostgreSQL\13\bin;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-17\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Baianater 2\AppData\Local\Microsoft\WindowsApps;;C:\Users\Baianater 2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Baianater 2\AppData\Roaming\npm;.</value>
   </parameter>
   <parameter>
     <key>java.vendor</key>
@@ -182,7 +182,7 @@
   </parameter>
   <parameter>
     <key>executionAddress</key>
-    <value>local</value>
+    <value>localhost:4444/</value>
   </parameter>
   <parameter>
     <key>apiConnectionManagerTimeout</key>
@@ -346,7 +346,7 @@
   </parameter>
   <parameter>
     <key>targetOperatingSystem</key>
-    <value>Windows-64</value>
+    <value>Linux-64</value>
   </parameter>
   <parameter>
     <key>propertiesFolderPath</key>
@@ -363,6 +363,10 @@
   <parameter>
     <key>screenshotParams_watermark</key>
     <value>true</value>
+  </parameter>
+  <parameter>
+    <key>baseUrlForGoogle</key>
+    <value>https://www.google.com/</value>
   </parameter>
   <parameter>
     <key>cleanExtentReportsDirectoryBeforeExecution</key>

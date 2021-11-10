@@ -2,6 +2,7 @@ package TestPackage;
 
 import com.shaft.driver.DriverFactory;
 import com.shaft.gui.browser.BrowserActions;
+import com.shaft.tools.io.JSONFileManager;
 import com.shaft.validation.Validations;
 import gui.page.homePage;
 import gui.page.resultsPage;
@@ -13,6 +14,7 @@ import org.testng.annotations.Test;
 
 public class TestClass {
   private  WebDriver driver;
+   JSONFileManager testData= new JSONFileManager("src/test/resources/TestDataFiles/google.json");
 
     @Test(description = "Check the google logo is displayed")
     @Description("""
@@ -35,7 +37,7 @@ public class TestClass {
             """)
     public void checkTheStatsIsNotEmpty() {
 
-        new homePage(driver).navigate().searchForQuery("shaft engine");
+        new homePage(driver).navigate().searchForQuery(testData.getTestData("searchQuery"));
 
 
 
